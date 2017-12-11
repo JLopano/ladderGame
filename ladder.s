@@ -4,13 +4,13 @@
 .equ OUTPUT, 1
 
 //LED WiringPi Configuration
-.equ BLUETWO, 21
-.equ BLUEONE, 22
-.equ YELLOW,  23
-.equ RED,     24
+.equ BLUETWO, 26
+.equ BLUEONE, 27
+.equ YELLOW,  28
+.equ RED,     29
 
 //Button WiringPi Configuration
-.equ BUTTON,  0
+.equ BUTTON,  1
 
 .data
 .global setup			//Sets up WiringPi
